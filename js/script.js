@@ -255,7 +255,7 @@ async function displayShowSlider() {
 		div.classList.add("swiper-slide");
 
 		div.innerHTML = `
-    <a href="movie-details.html?${show.id}">
+    <a href="tv-details.html?${show.id}">
       <img src="https://image.tmdb.org/t/p/w500${show.poster_path}" alt="${
 			show.name
 		}" />
