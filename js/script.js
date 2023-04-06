@@ -277,7 +277,7 @@ function initSwiper() {
 	const swiper = new Swiper(".swiper", {
 		slidesPerView: 1,
 		spaceBetween: 30,
-		freeMode: true,
+		slidesPerView: true,
 		loop: true,
 		autoplay: {
 			delay: 4000,
@@ -288,14 +288,17 @@ function initSwiper() {
 			prevEl: ".swiper-button-prev",
 		},
 		breakpoints: {
-			500: {
+			640: {
 				slidesPerView: 2,
+				spaceBetween: 20,
 			},
-			700: {
+			768: {
 				slidesPerView: 3,
+				spaceBetween: 30,
 			},
-			1200: {
+			1024: {
 				slidesPerView: 4,
+				spaceBetween: 40,
 			},
 		},
 	});
