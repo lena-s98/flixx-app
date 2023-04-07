@@ -1,7 +1,7 @@
 # Flixx Movie App
 
 In this application we make a request to the TMDB API.
-[Website]https://www.themoviedb.org/
+https://www.themoviedb.org/
 
 ## Functions:
 
@@ -11,3 +11,5 @@ In this application we make a request to the TMDB API.
 - Clicking on any movie or show will show you the details of them.
 - The website has a search function on the homepage with pagination of
   the results.
+
+![Screenshot of the Homepage](/images/flixx_home.jpg)
