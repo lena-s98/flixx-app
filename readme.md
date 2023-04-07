@@ -1,9 +1,11 @@
 # Flixx Movie App
 
+Deployment Link: https://imaginative-kashata-5d5e4b.netlify.app
+
 In this application we make a request to the TMDB API.
-<br>
+
 https://www.themoviedb.org/
-<br>
+
 We then use the data to insert them into the DOM and create
 the movie/show cards.
 
