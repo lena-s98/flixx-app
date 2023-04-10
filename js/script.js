@@ -1,5 +1,5 @@
 const global = {
-	currentPage: window.location.pathname,
+	currentPage: window.location.pathname.replace("/flixx-app", ""),
 	search: {
 		term: "",
 		type: "",
