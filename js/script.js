@@ -1,5 +1,5 @@
 const global = {
-	currentPage: window.location.pathname.replace("/flixx-app", ""),
+	currentPage: window.location.pathname,
 	search: {
 		term: "",
 		type: "",
@@ -492,22 +492,22 @@ function addCommaToNumber(num) {
 
 function init() {
 	switch (global.currentPage) {
-		case "/":
-		case "/index.html":
+		case "/flixx-app/":
+		case "/flixx-app/index.html":
 			displayMovieSlider();
 			displayPopularMovies();
 			break;
-		case "/shows.html":
+		case "/flixx-app/shows.html":
 			displayShowSlider();
 			displayPopularShows();
 			break;
-		case "/movie-details.html":
+		case "/flixx-app/movie-details.html":
 			displayMovieDetails();
 			break;
-		case "/tv-details.html":
+		case "/flixx-app/tv-details.html":
 			displayShowDetails();
 			break;
-		case "/search.html":
+		case "/flixx-app/search.html":
 			search();
 			break;
 	}
