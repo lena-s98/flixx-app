@@ -1,7 +1,5 @@
 # Flixx Movie App
 
-Deployment Link: <a target="_blank" href="https://imaginative-kashata-5d5e4b.netlify.app">Flixx App</a>
-
 In this application we make a request to the TMDB API.
 
 https://www.themoviedb.org/
