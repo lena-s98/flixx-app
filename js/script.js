@@ -492,21 +492,27 @@ function addCommaToNumber(num) {
 
 function init() {
 	switch (global.currentPage) {
+		case "/":
+		case "/index.html":
 		case "/flixx-app/":
 		case "/flixx-app/index.html":
 			displayMovieSlider();
 			displayPopularMovies();
 			break;
+		case "shows.html":
 		case "/flixx-app/shows.html":
 			displayShowSlider();
 			displayPopularShows();
 			break;
+		case "movie-details.html":
 		case "/flixx-app/movie-details.html":
 			displayMovieDetails();
 			break;
+		case "tv-details.html":
 		case "/flixx-app/tv-details.html":
 			displayShowDetails();
 			break;
+		case "/seach.html":
 		case "/flixx-app/search.html":
 			search();
 			break;
